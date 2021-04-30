@@ -1,0 +1,6 @@
+1. npm install laravel-mix@latest --save-dev - install latest version of the package to
+   avoid errors when downloading presets.
+2. php artisan make:model Car -m - create model "Car" with migration (m flag in the command);
+3. php artisan make:controller CarsController --resource - create "CarsController" with all necessary methods;
+4. php artisan make:rule Uppercase - create custom validation rule;
+5. php artisan make:request CreateValidationRequest - create validation request;
